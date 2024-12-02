@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="icon" type="image/x-icon" href="../Images/logo-onglet2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #FC9829;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="profil">
+            <img src="../Images/logo-onglet2.png" alt="photo de profil">
+            <h1>BountyTech</h1>
+        </div>
+        </ul>
+        <ul>
+            <a href="index.html"><li>Accueil</li></a>
+            <a href="Bounty.html"><li>Bounty</li></a>
+            <a href="contact.html"><li>Contacts</li></a>
+            <a href="copyrights&MentionLegalPolitiqueDeConfidentialité.html"><li>À Propos</li></a>
+        </ul>    
+    </nav>
+    <div class="container">
+        <h2>Contactez-nous</h2>
+        <div class="contact-info">
+            <p><strong>Téléphone:</strong> +33 1 01 01 01 01</p>
+            <p><strong>Email:</strong> bountytech01@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/bounty-tech-6a32822a5/" target="blank"><strong>Linkedin</strong></a></p>
+        </div>
+        <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre Email" required>
+            <textarea name="message" placeholder="Votre Message" required></textarea>
+            <input type="submit" value="Envoyer le Message">
+        </form>
+    </div>
+    <footer>
+        <h2>Contact</h2>
+        <a href="contact.html" class="button1"><span>Nous contacter</span></a>
+        <link><a href="copyrights&MentionLegalPolitiqueDeConfidentialité.html">Copyrights et Mention Légal BountyTech 2023</a>
+        <p>©  2023 - Tous droits réservés</p>
+    </footer><!--fin du #mainFooter-->
+</body>
+</html>
